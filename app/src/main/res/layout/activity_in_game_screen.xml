@@ -1,0 +1,109 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context=".InGameScreen">
+
+    <TextView
+        android:text="Player 1"
+        android:id="@+id/tv_1"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:text="Player 2"
+        android:id="@+id/tv_2"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        />
+    <TextView
+        android:text="Player 3"
+        android:id="@+id/tv_3"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:text="Player 4"
+        android:id="@+id/tv_4"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="200dp"
+        />
+    <TextView
+        android:text="Card"
+        android:id="@+id/tv_5"
+        android:textSize="60sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        />
+    <Button
+        android:text = "Hoi"
+        android:textSize="20sp"
+        android:onClick="go_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        />
+    <Button
+        android:text = "Dag"
+        android:textSize="20sp"
+        android:onClick="go_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="120dp"
+        />
+    <Button
+        android:text = "Doei"
+        android:textSize="20sp"
+        android:onClick="go_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="250dp"
+        />
+    <Button
+        android:text = "Tot Ziens"
+        android:textSize="20sp"
+        android:onClick="go_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="475dp"
+        />
+    <Button
+        android:text = "Welkom"
+        android:textSize="20sp"
+        android:onClick="go_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="475dp"
+        android:layout_marginLeft="120dp"
+        />
+    <Button
+        android:text = "Hallo"
+        android:textSize="20sp"
+        android:onClick="go_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="475dp"
+        android:layout_marginLeft="250dp"
+        />
+
+</RelativeLayout>

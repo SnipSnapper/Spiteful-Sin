@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="name">Spiteful Sin</string>
+    <string name="Lobby">Lobby</string>
+    <string name="invite">Invite players</string>
+    <string name="start">Start the Game</string>
+    <string name="HostText">Game Host</string>
+    <string name="WaitHost">Wait for host to start game</string>
+</resources>
